@@ -1,3 +1,5 @@
+from binascii import unhexlify
+
 with open(file) as data_file:
     ciphertext_list = []
     for line in data_file:
